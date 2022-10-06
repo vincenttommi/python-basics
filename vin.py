@@ -1,10 +1,8 @@
-# get the type()
-# used to specify the  type of variable declared in a function
+# string or double quotes in python
 
-x = 34
-y = "coding"
+x = "vincenttommi"
+# is tha same when declared in python
+y = 'vin'
 
-print(type(x))
-print(type(y))
-
-
+print(x)
+print(y)
