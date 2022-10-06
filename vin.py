@@ -1,6 +1,2 @@
-print("vincenttomi")
-
-# This is a comment
-# vincenttommi
-# vincenttommikorir
- 
+print("vincentttommmi")
+"""This is a comment"""
