@@ -1,10 +1,10 @@
-#casting in python
-# specifying the type of data a variable holds
+# get the type()
+# used to specify the  type of variable declared in a function
 
-x =  int(3)
-y = str(4)
-z = float(5)
+x = 34
+y = "coding"
 
-print(x)
-print(y)
-print(z)
+print(type(x))
+print(type(y))
+
+
