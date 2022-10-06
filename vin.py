@@ -1,8 +1,6 @@
-# multiword variable in python_\
-    
-# camel case varibale in python
-# each word starts with a capital letter expect  the first
+# pascal case in python
+# each word starts with capital letter
 
-julyElectionResults = "William samoei Ruto"
+MyVariableName = "vincenttommikorir"
 
-print(julyElectionResults)
+print(MyVariableName)
