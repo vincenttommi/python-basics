@@ -3,7 +3,6 @@
 # cannot start with a number
 # variable name can contain alphanumeric character and under scores from a-z or 0-9 , _
 # variable names are case sentive
-
 myvar = "kiptoo"
 my_var = "kiptoo"
 __my_var = "kiptoo"
