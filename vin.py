@@ -1,8 +1,17 @@
-# case-senstive
-# variables are case sentive in python
-# These are two different variables in python
-a = 4
-A = "vincenttommi"
+# rules of variable declaration in python
+# must start with a letter or underscore character
+# cannot start with a number
+# variable name can contain alphanumeric character and under scores from a-z or 0-9 , _
+# variable names are case sentive
 
-print(a)
-print(A)
+myvar = "kiptoo"
+my_var = "kiptoo"
+__my_var = "kiptoo"
+myVar = "kiptoo"
+myvar2 = "kiptoo"
+
+print(myvar)
+print(my_var)
+print(__my_var)
+print(myVar)
+print(myvar2)
