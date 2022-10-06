@@ -1,8 +1,8 @@
-# string or double quotes in python
+# case-senstive
+# variables are case sentive in python
+# These are two different variables in python
+a = 4
+A = "vincenttommi"
 
-x = "vincenttommi"
-# is tha same when declared in python
-y = 'vin'
-
-print(x)
-print(y)
+print(a)
+print(A)
