@@ -1,5 +1,8 @@
-#snake case in python
-# Each word is separated by underscore
+# Assiging multiple values to variables in python
+x,y,z = "Django","Flask","Pyramind"
 
-my_variable_name = "vincenttommikorir"
-print(my_variable_name)
+print(x)
+print(y)
+print(z)
+
+
