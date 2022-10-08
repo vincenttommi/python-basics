@@ -1,6 +1,5 @@
-# pascal case in python
-# each word starts with capital letter
+#snake case in python
+# Each word is separated by underscore
 
-MyVariableName = "vincenttommikorir"
-
-print(MyVariableName)
+my_variable_name = "vincenttommikorir"
+print(my_variable_name)
