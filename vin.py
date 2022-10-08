@@ -1,8 +1,7 @@
-# unpack a collection
-# extracting  values from lists or  tuples into variables in python
+# outputting variable in python
+# print()
 
-clubs = ["Manchester United","Manchester City","Chelsea"]
-x,y, z = clubs
+x = "python is cool"
+
 print(x)
-print(y)
-print(z)
+
