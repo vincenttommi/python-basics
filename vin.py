@@ -1,13 +1,17 @@
-# global variables 
-# created outside a function and can be accessed both outside and inside the function
-# in above two variables are created one outside using the same name and another inside 
-# accesed in the same function but bring different outcome
-x = "progamming language"
+#global keyword
+# used for creating a global variable inside a function
+
 
 def myfunction():
-    print("python is an easier" + x)
-    
+    global x 
+    x =  "cool programming langauge"
+ 
 myfunction()
-print("Learning a " + x)    
+print("python is a " + x)    
+    
+      
+    
+
+
 
 
