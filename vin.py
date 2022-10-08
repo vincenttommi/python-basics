@@ -1,12 +1,14 @@
-# outputting multiple  variables in python
-# print()
+# global variables 
+# created outside a function and can be accessed both outside and inside the function
+x  = "awesome"
 
-x = "python"
+def myfunc():
+    x  = "is  cool"
+    print("python is "  + x)
+   
+myfunc() 
+print("coding python is " + x)    
+    
+    
 
-y = "is"
 
-z = "cool"
-
-print(x)
-print(y)
-print(z)
