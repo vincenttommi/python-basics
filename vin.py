@@ -11,11 +11,14 @@
 # None Type = None
 
 # type() specifies type of datatype declared in a variable
-# set datatype in python
+#frozenset()datatype in python
+#creates an imutable set object from an iterable
 
-numbers = set((1,2,3,4,5,6,7,8,9,10))
-print(numbers)
-print(type(numbers)) 
+
+Names = frozenset(("vincent","brayo","kihenjo","harry"))
+print(Names)
+print(type(Names))
+
  
 
 
