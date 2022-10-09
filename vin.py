@@ -1,14 +1,27 @@
-# python numbers , there are three int float and complex
-# variables of numeric types are created when we assign values to them
-#complex numbers in python
-# j is written as an imaginary part
+# type conversion in python
+# you can convert one type from another using int()  float() and complex() methods.
+
+x = 1
+y = 3.4
+z = 50
+
+
+# converting int  to float
+a = int(x) 
+# converting from float to int
+
+b = float(y)
+# convert from it to complex
+c = complex(z)
 
 
 
-x = 4+56j
-y = 45j
-z = -50j
+print(a)
+print(b)
+print(c)
 
-print(type(x))
-print(type(z))
-print(type(y))
+
+print(type(a))
+print(type(b))
+print(type(c))
+
