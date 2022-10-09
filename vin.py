@@ -11,14 +11,11 @@
 # None Type = None
 
 # type() specifies type of datatype declared in a variable
-#frozenset()datatype in python
-#creates an imutable set object from an iterable
+#bool datatype in python
+# used to represent truth values of an expression either true or false
 
 
-Names = frozenset(("vincent","brayo","kihenjo","harry"))
-print(Names)
-print(type(Names))
-
- 
-
+x = bool(1)
+print(x)
+print(type(x))
 
