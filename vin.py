@@ -12,6 +12,6 @@
 
 # list datatype in python
  
-Days = ["monday","tuesday","wensday","thursday","friday","saturday","sunday"]
-print(Days)
-print(type(Days))
+marks = ["40","50","60","70","80","90","45"]
+print(marks)
+print(type(marks))
