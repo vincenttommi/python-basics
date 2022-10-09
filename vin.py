@@ -11,9 +11,11 @@
 # None Type = None
 
 # type() specifies type of datatype declared in a variable
-#tupple datatype in python
+# dict datatype in python
+# returns the type of passed variable, if returned variable is of dictionary type then it returns dictionary type
+x = dict(name="vincent", age=23)
+print(x)
+print(type(x))
+ 
 
 
-weeks = (1,2,3,4,5,6,7,8,9)
-print(weeks)
-print(type(weeks))
