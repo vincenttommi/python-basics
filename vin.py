@@ -10,10 +10,10 @@
 # Binary Types = bytes,bytearray,memoryview
 # None Type = None
 
-# type function()
-# used to get data type of any object
+# float datatype in python
 
-x = 20
+
+x = 20.5
 print(type(x))
  
 
