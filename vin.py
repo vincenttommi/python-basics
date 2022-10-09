@@ -1,16 +1,14 @@
 # python numbers , there are three int float and complex
 # variables of numeric types are created when we assign values to them
-# float numbers in python either positive or negative and containing one or more decimals
+#complex numbers in python
+# j is written as an imaginary part
 
 
-x = 19e0
-y = 34E67
-z = -23.0
+
+x = 4+56j
+y = 45j
+z = -50j
 
 print(type(x))
-print(type(y))
 print(type(z))
-
-print(x)
-print(y)
-print(z)
+print(type(y))
