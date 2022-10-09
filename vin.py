@@ -3,8 +3,8 @@
 # float numbers in python either positive or negative and containing one or more decimals
 
 
-x = 1.0
-y = 34.67
+x = 19e0
+y = 34E67
 z = -23.0
 
 print(type(x))
