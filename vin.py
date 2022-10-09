@@ -11,11 +11,13 @@
 # None Type = None
 
 # type() specifies type of datatype declared in a variable
-# dict datatype in python
-# returns the type of passed variable, if returned variable is of dictionary type then it returns dictionary type
-x = dict(name="vincent", age=23)
-print(x)
-print(type(x))
+# set datatype in python
+
+fruits = set(("mangoes","apple","quavas","grapes","strawberry"))
+
+print(fruits)
+print(type(fruits))
+
  
 
 
