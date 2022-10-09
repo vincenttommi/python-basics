@@ -13,5 +13,6 @@
 # type function()
 # used to get data type of any object
 
-x = 5
+x = "python"
 print(type(x))
+
