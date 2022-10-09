@@ -11,11 +11,11 @@
 # None Type = None
 
 # type() specifies type of datatype declared in a variable
-#bool datatype in python
-# used to represent truth values of an expression either true or false
+#bytes datatype in python
+#converts bytes objects into byte objects or creates empty bytes of specified sizes.
 
 
-x = bool(1)
+x = bytes(10)
+
 print(x)
 print(type(x))
-
