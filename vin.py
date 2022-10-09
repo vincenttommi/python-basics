@@ -10,10 +10,7 @@
 # Binary Types = bytes,bytearray,memoryview
 # None Type = None
 
-# float datatype in python
-
-
-x = 20.5
-print(type(x))
- 
+#complex datatype in python
+x = 1j
+print(type(x)) 
 
