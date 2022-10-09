@@ -1,12 +1,17 @@
-#global keyword
-# used for creating a global variable inside a function
-# changing value of global keyword inside a function  we refer to the variable  by using globalkeyword
+#python data types
+# definition of a datatype specificies which value a  variable holds in a program
+# data types in python include
+# texttype = str
+# Numeric Types = int,float,complex
+# SequenceTypes = List,tupple,range
+# mapping Type = dict
+# setTypes = set,Frozenset
+# Boolean type = Bool
+# Binary Types = bytes,bytearray,memoryview
+# None Type = None
 
-x = "cool"
+# type function()
+# used to get data type of any object
 
- 
-def myfunction():
-    global x 
-    x = "great"
-myfunction()
-print("python is " + x)    
+x = 5
+print(type(x))
