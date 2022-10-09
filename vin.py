@@ -13,7 +13,7 @@
 # type() specifies type of datatype declared in a variable
 #tupple datatype in python
 
-girlfreinds = ("Diana","Brenchoe","Lilian","Beth","Damaris")
 
-print(girlfreinds)
-print(type(girlfreinds))
+weeks = (1,2,3,4,5,6,7,8,9)
+print(weeks)
+print(type(weeks))
