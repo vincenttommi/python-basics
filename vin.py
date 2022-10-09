@@ -10,8 +10,10 @@
 # Binary Types = bytes,bytearray,memoryview
 # None Type = None
 
-# list datatype in python
- 
-marks = ["40","50","60","70","80","90","45"]
-print(marks)
-print(type(marks))
+# type() specifies type of datatype declared in a variable
+#tupple datatype in python
+
+girlfreinds = ("Diana","Brenchoe","Lilian","Beth","Damaris")
+
+print(girlfreinds)
+print(type(girlfreinds))
