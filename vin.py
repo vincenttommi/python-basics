@@ -11,10 +11,10 @@
 # None Type = None
 
 # type() specifies type of datatype declared in a variable
-#bytearray datatype in python
-#converts objects into bytearray objects or create empty byte array of specified sizes
+#memoryview(bytes(5))
+#allows reading and writing of byte orientated data without needing to copy it first
 
 
-x = bytearray(20)
+x = memoryview(bytes(158))
 print(x)
 print(type(x))
