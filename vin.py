@@ -10,7 +10,8 @@
 # Binary Types = bytes,bytearray,memoryview
 # None Type = None
 
-#complex datatype in python
-x = 1j
-print(type(x)) 
-
+# list datatype in python
+ 
+Days = ["monday","tuesday","wensday","thursday","friday","saturday","sunday"]
+print(Days)
+print(type(Days))
