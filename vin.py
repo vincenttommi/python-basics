@@ -1,11 +1,6 @@
-#checking presence of a string in python using if statement
-#cheking if a certain character is absent  or presence in a statement
-# we use the keyword  not in
-#check if NOT
+#python slicing strings
+#obtaining a substring from a given string starting from start to end.
+#we specifty the start and the end with :  to get the outcome.
 
-#using an if statement to confirm  a phrase or character is absent in a statement
-
-name = "I schooled in majengo primary school for my primary  school education"
-if "kawangware"  not  in name:
-    print("wagwan,'you schooled in western part of kenya'")
-
+x = "Lilian Mwangi"
+print(x[2:5])
