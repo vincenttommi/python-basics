@@ -2,6 +2,6 @@
 # strings in python are sorrounded by either double qoutes or single qoutation marks
 
 
-# assigning a string to a variable
-x = "vincenttommi"
-print(x)
+#  assigning multline string to a variable
+names = """vincenttommi"""
+print("names")
