@@ -3,5 +3,5 @@
 
 
 #  assigning multline string to a variable
-names = """vincenttommi"""
-print("names")
+names = """vincenttommi."""
+print(names)
