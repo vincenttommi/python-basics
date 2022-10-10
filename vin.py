@@ -2,5 +2,7 @@
 #obtaining a substring from a given string starting from start to end.
 #we specifty the start and the end with :  to get the outcome.
 
-x = "Lilian Mwangi"
-print(x[2:5])
+#slicing from the start
+
+x = "vincenttommi"
+print(x[:4])
