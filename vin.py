@@ -1,5 +1,3 @@
-#len() returns the lenght of a string in python
-
-x = "rongai"
-print(len(x))
- 
+#checking presence of a string in python
+txt = "python is the best programming langauge"
+print("best" in txt)
