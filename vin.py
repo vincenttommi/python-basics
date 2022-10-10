@@ -5,12 +5,12 @@
 # float constructs an a float froma an integral literal , float literal or string
 # str() constructs a string from a wide variety of data types,including strings,integer literals and float literal
 
-#float()
-# converts integer and string literals to float
+#str()
+# converts integer and float literals to strings
 
-x = float(23)
-y = float("34")
-z = float(17)
+x = str("s34")
+y = str(2.03)
+z = str(17)
 
 print(x)
 print(y)
