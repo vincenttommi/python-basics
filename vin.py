@@ -3,6 +3,9 @@
 # we use the keyword  not in
 #check if NOT
 
+#using an if statement to confirm  a phrase or character is absent in a statement
+
 name = "I schooled in majengo primary school for my primary  school education"
-print("majengo"  not in name)
+if "kawangware"  not  in name:
+    print("wagwan,'you schooled in western part of kenya'")
 
