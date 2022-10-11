@@ -1,6 +1,8 @@
 #more string methods
-# center() returns string  to center
+# endswith() checks if  string ends with a specified punctuation
+#returns true if the string  ends with a specified value
 
 
-x = "vincent tommi"
-print(x.encode())
+txt = "Hello ,welcome to world"
+x = txt.endswith("d")
+print(x)
