@@ -1,7 +1,7 @@
 #modifying strings in python
 #has a set of built-in methods to modify sets.
 
-# uppercase() return string in uppercase form
+# name()  returnsstring in lowercase
 
-a = "vincent tommi"
-print(a.upper())
+name = "vincent tommi"
+print(name.lower())
