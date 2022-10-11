@@ -1,6 +1,6 @@
 #more string methods
-# casfolds returns string into lowercase
+# center() returns string  to center
 
 
-x = "vincenttommi"
-print(x.casefold())
+x = "vincent tommi"
+print(x.encode())
