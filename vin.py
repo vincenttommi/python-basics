@@ -1,7 +1,6 @@
-#escape character in python
-# are used to insert characters that are illegal in a string
+#more string methods
+# captilize converts the first letter to upppercase
 
-# x = "you can become a great developer if you put \"more work\" thats all vin"
-# print(x)
-message = 'it\'s great'
-print(message)
+
+x = "vincenttommi"
+print(x.capitalize())
