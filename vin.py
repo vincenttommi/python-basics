@@ -1,11 +1,6 @@
-#modifying strings in python
-#has a set of built-in methods to modify sets.
+#string formats
+#we comnine numbers and string using  format()
 
-#split string()
-#string contanetion
-
-a = "vincent"
-b = "tommi"
-c = a + " " + b
-
-print(c)
+marks = "300"
+txt = "I scored the following {} marks "
+print(txt.format(marks))
