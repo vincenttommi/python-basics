@@ -1,7 +1,8 @@
 #modifying strings in python
 #has a set of built-in methods to modify sets.
 
-# strip() removes the whitespace from a function
+#split string()
+# method splits strings into substrings if it finds instances of separator
 
-name = " vincent tommi "
-print(name.strip())
+a = "vincent, tommi!"
+print(a.split(","))
