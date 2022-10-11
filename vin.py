@@ -3,6 +3,7 @@
 #returns true if the string  ends with a specified value
 
 
-txt = "Hello ,welcome to world"
-x = txt.endswith("d")
+
+txt = "vincent  you will be a python guru"
+x  = txt.endswith("vincent")
 print(x)
