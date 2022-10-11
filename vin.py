@@ -2,7 +2,10 @@
 #has a set of built-in methods to modify sets.
 
 #split string()
-# method splits strings into substrings if it finds instances of separator
+#string contanetion
 
-a = "vincent, tommi!"
-print(a.split(","))
+a = "vincent"
+b = "tommi"
+c = a + " " + b
+
+print(c)
