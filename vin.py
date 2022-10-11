@@ -1,6 +1,6 @@
 #more string methods
-# captilize converts the first letter to upppercase
+# casfolds returns string into lowercase
 
 
 x = "vincenttommi"
-print(x.capitalize())
+print(x.casefold())
