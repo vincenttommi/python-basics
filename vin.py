@@ -1,9 +1,6 @@
-#more string methods
-# endswith() checks if  string ends with a specified punctuation
-#returns true if the string  ends with a specified value
+#python Booleans 
+#Represent one or two values
 
-
-
-txt = "vincent  you will be a python guru"
-x  = txt.endswith("vincent")
-print(x)
+print(10 > 9)
+print( 10 == 9)
+print(3 > 10)
