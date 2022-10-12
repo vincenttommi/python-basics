@@ -1,12 +1,6 @@
-#Evaluation of values  and variables
-#evaluation of values using bool() returns true or false
+#python operators and values are used to perform operations values and  variables
 
-# class myclass():
-#     def _len_self():
-#         return 0
-# myobj = myclass()
-# print(bool(myobj))    
-#functions can return a boolean value
-def myfunction():
-    return False
-print(myfunction())
+
+x = 200
+y = 400
+print(400+200)
