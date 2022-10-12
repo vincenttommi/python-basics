@@ -10,7 +10,7 @@
 #Membership operators
 #Bitwise operators
 
-x = 300
+x = 2
 y = 10
 
-print(x%y)
+print(x**y)
