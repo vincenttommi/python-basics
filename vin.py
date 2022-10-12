@@ -1,6 +1,10 @@
 #python Booleans 
 #Represent one or two values
 
-print(10 > 9)
-print( 10 == 9)
-print(3 > 10)
+#Running a condition in an if statement
+a = 200
+b = 33
+if a > b:
+    print("b is greater than a")
+else:
+    print("b is not great than a")    
