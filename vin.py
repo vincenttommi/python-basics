@@ -10,7 +10,8 @@
 #Membership operators
 #Bitwise operators
 
-x = 2
-y = 10
+x = 1500
+y = 2
 
-print(x**y)
+print(x//y)
+#Rounds the numbers down to the  nearest whole number
