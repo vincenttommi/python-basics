@@ -10,7 +10,7 @@
 #Membership operators
 #Bitwise operators
 
-x = 24
-y = 34
+x = 300
+y = 10
 
-print(x*y)
+print(x/y)
