@@ -1,6 +1,16 @@
 #python operators and values are used to perform operations values and  variables
 
 
-x = 200
-y = 400
-print(400+200)
+#division of operators in python
+#bitwise operators
+#Assignment operators
+#comparison operators
+#Logical operators
+#Identity operators
+#Membership operators
+#Bitwise operators
+
+x = 24
+y = 34
+
+print(x-y)
