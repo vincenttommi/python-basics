@@ -1,5 +1,3 @@
-#python membership operators
-#are used to test if a sequence is true in an object
-x  = ["vincent","tommi"]
-
-print("tommi" in x)
+#python list are used to store multiple items in a single variable
+names = list["vincent","tommi","korir"]
+print(names)
