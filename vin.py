@@ -1,4 +1,5 @@
-#assignment operators
-#are used to assign  values to operators
-x = 5
-print(x)
+#comparison operators
+#are used to compare two values
+x = 4
+y = 5
+print(x == y)
