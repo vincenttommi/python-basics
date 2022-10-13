@@ -1,7 +1,5 @@
-#comparison operators
-#are used to compare two values
-x = 4
-y = 5
-print(x <=y )
-#Returns true if 4 is not eqaul to 5
+#logical operators in python
+#are used to combine  conditional statements
 
+x = 5
+print(x > 3  and x < 20)
