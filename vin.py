@@ -1,6 +1,5 @@
-#python accessing list items
-#list items are indexed and can be accessed by  reffering to the index number
+#Negative indexing
+#means starting from the end
 
-thislist = ["apple","banana","cherry"]
-
-print(thislist[2])
+thislist = ["apple","mango","cherry"]
+print(thislist[-2]) 
