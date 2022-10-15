@@ -1,5 +1,7 @@
-#Negative indexing
-#means starting from the end
+#range of indexes
+#you can specifty range of indexes by speciftying where to start and where to end
+#when specifying a range the return value will be  a  new  list with  specified items
 
-thislist = ["apple","mango","cherry"]
-print(thislist[-2]) 
+thislist = ["banana","cherry","orange","kiwi","melon","mango"]
+print(thislist[2:5])
+
