@@ -1,6 +1,11 @@
-#changing a range of item values
-#define a list with new values  and refer to the range of index numbers  where you want to insert the new values.
+#inserting items in a range of lists
+#insert() inserting a new value without  without replacing the existing ones
 
-thislist = ["apple","banana","cherry","orange","kiwi","mango"]
-thislist[-1:-5] = ["watermelon","grapes"]
-print(thislist)
+
+names = ["vincent","brayo","shiro","leah"]
+names.insert(3,"python")
+print(names)
+
+schools  = ["university of nairobi","daystar university","masinde muliro university"]
+schools.insert(3,"Egerton university")
+print(schools)
