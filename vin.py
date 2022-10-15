@@ -1,5 +1,9 @@
-#loop through index numbers
+#looping using list comprehension
+#offers the shortest syntax for looping through the list
 
-thislist = ["banana","grapes","cherry"]
-for i in range(len(thislist)):
-    print(thislist[i])
+
+
+
+
+names = ["lilianmwangi","damarismumbua","bethgacinenjoki","diananyagano","brenchoe Andeyo","EstherOmolo"]
+[print (x)  for x in names]
