@@ -1,7 +1,5 @@
-#clear the list()
-#empties the list
-#the list still remains but has no content
+#loop through index numbers
 
-thislist = ["apple","banana","cherry"]
-thislist.clear()
-print(thislist)
+thislist = ["banana","grapes","cherry"]
+for i in range(len(thislist)):
+    print(thislist[i])
