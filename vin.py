@@ -2,9 +2,10 @@
 #To append list from another list to current  list we use extend()
 #nicknames adds elements to names
 
-names = ["vincent","tommi","richard","espie","beliss"]
-nicknames = ["msamabti","msenge","vin"]
 
-names.extend(nicknames)
-print(names)
 
+Teams = ["chelsea","manunited","Barcelona","Realmadrid"]
+clubs = ["leicester","southampton"]
+
+Teams.extend(clubs)
+print(Teams)
