@@ -1,12 +1,6 @@
-#python list are used to store multiple items in a single variable
-#len() used to determine  how many items a list  has
-#can be of any datatype string int boolean
+#python accessing list items
+#list items are indexed and can be accessed by  reffering to the index number
 
-#list items - Data types
-#list with boolean,strings and integers
+thislist = ["apple","banana","cherry"]
 
-
-
-#The list constructor
-thislist = list(("apple","banana","cherry"))
-print(thislist)
+print(thislist[2])
