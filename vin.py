@@ -3,11 +3,10 @@
 #can be of any datatype string int boolean
 
 #list items - Data types
+#list with boolean,strings and integers
 
-list1 = ["apple","banana","cherry"]
-list2 = [1,2,3,4,5,6,7]
-list3 = [True,False,True]
 
-print(list1)
-print(list2)
-print(list3)
+
+#The list constructor
+thislist = list(("apple","banana","cherry"))
+print(thislist)
