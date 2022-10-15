@@ -1,4 +1,5 @@
-#checking if item exits in list 
-
-thislist = ["apple","mango","banana","cherry"]
-print("yes, its presence in this list")
+#changing list items
+#to change value of specific item we refer to   specific index number
+thislist = ["apple","banana","cherry"]
+thislist[2] = "black coffee"
+print(thislist)
