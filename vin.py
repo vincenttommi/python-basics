@@ -1,13 +1,6 @@
-#Exending list in python
-#To append list from another list to current  list we use extend()
-#nicknames adds elements to names
+#Removing list items in python
+#remove() removes specified item
 
-
-#adding any iterable
-#the extend method does not have to  append list  you  can add any iterable object  tuples ,sets ,dictionaries
-
-#adding  elements of a tupple to a list
-thislist = ["apple","banana","cherry"]
-thistuple = ["kiwi","orange"]
-thislist.extend(thistuple)
-print(thislist)
+names = ["react","flask","django","laravel","nodejs"]
+names.remove("nodejs")
+print(names)
