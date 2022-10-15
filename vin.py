@@ -1,6 +1,7 @@
-#Removing list items in python
-#remove() removes specified item
+#Removing specified index 
+#pop() removes the specified index
 
-names = ["react","flask","django","laravel","nodejs"]
-names.remove("nodejs")
+
+names = ["kihenjo","kirubi","richie","peter"]
+names.pop(0)
 print(names)
