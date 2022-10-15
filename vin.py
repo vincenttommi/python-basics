@@ -1,9 +1,7 @@
-#Removing specified index 
-#pop() removes the specified index
-#del  also removes the specified keyword
+#clear the list()
+#empties the list
+#the list still remains but has no content
 
-
-
-names = ["kihenjo","kirubi","richie","peter","Edwin","msenge","pinchez"]
-del names[6]
-print(names)
+thislist = ["apple","banana","cherry"]
+thislist.clear()
+print(thislist)
