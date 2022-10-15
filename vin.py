@@ -1,6 +1,10 @@
-#inserting  a list item at specified  index 
-# we use insert()
+#Exending list in python
+#To append list from another list to current  list we use extend()
+#nicknames adds elements to names
 
-jsframeworks = ["react","vuejs","angular"]
-jsframeworks.insert(1,"node")
-print(jsframeworks)
+names = ["vincent","tommi","richard","espie","beliss"]
+nicknames = ["msamabti","msenge","vin"]
+
+names.extend(nicknames)
+print(names)
+
