@@ -3,9 +3,11 @@
 #nicknames adds elements to names
 
 
+#adding any iterable
+#the extend method does not have to  append list  you  can add any iterable object  tuples ,sets ,dictionaries
 
-Teams = ["chelsea","manunited","Barcelona","Realmadrid"]
-clubs = ["leicester","southampton"]
-
-Teams.extend(clubs)
-print(Teams)
+#adding  elements of a tupple to a list
+thislist = ["apple","banana","cherry"]
+thistuple = ["kiwi","orange"]
+thislist.extend(thistuple)
+print(thislist)
