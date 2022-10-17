@@ -6,7 +6,7 @@
 
 # print(len(worldcup))
 
-#set items int boolean string
+#set items int boolean stringof 
 
 # set1  = ["apple","banana","cherry"]
 # set2  = [1,2,3,4,5,6,7,8,9,10]
@@ -18,6 +18,24 @@
 
  
  
-myset = ["vincent","tommi","korir"]
-print(type(myset))
+# myset = ["vincent","tommi","korir"]
+# print(type(myset))
  
+ 
+#using a set constructor to make a set
+# thisset = set(("apple","banana","cherry","grapes"))
+
+# print(thisset)
+
+#collection Arrays in python 
+#list
+# dictionary
+#tuple
+# set
+
+#accessing items in python
+
+thisset = {"apple","banana","cherry"}
+
+for x in thisset:
+    print(x)
