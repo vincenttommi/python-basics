@@ -1,5 +1,5 @@
-#caseinsensitive sort
-
-thislist = ["banana","orange","kiwi","cherry"]
-thislist.sort(key = str.lower)
+#reverse() order in python
+#reverses the current sorting  order of elements
+thislist = ["banana","mango","avacado","grapes","sugar"]
+thislist.reverse()
 print(thislist)
