@@ -1,8 +1,8 @@
 #sorting  list in python
-#are sorted alphenumerically
+#are sorted alphabetically and  numerically
 #using  sort()
 #sorts lists alphanumerically 
 
-thislist = ["orange","mango","kiwi","banana","pineapple"]
-thislist.sort()
-print(thislist)
+numbers = [20,34,45,67,89,90,100,25]
+numbers.sort()
+print(numbers)
