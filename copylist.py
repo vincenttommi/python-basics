@@ -3,11 +3,19 @@
 
 
 
+# thislist = ["apple","banana","cherry"]
+# mylist = thislist.copy()
+# print(mylist)
+
+
+# numbers = [20,30,40,50,60,70,80,90,100]
+# num2 = numbers.copy()
+# print(numbers)
+
+
+#making a copy with list()
+
 thislist = ["apple","banana","cherry"]
-mylist = thislist.copy()
+mylist = list(thislist)
 print(mylist)
 
-
-numbers = [20,30,40,50,60,70,80,90,100]
-num2 = numbers.copy()
-print(numbers)
