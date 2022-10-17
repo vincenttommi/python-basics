@@ -29,8 +29,15 @@
 #add any iterable
 #object in update function does not have to be set it can be tupples or list and dictionaries
 
-thisset = {"apple","banane","cherry"}
+# thisset = {"apple","banane","cherry"}
+# mylist = {"kiwi","orange"}
+
+# thisset.update(mylist)
+# print(thisset)
+
+names = {"vincent","tommi","korir","welcome"}
 mylist = {"kiwi","orange"}
 
-thisset.update(mylist)
-print(thisset)
+
+names.update(mylist)
+print(names)
