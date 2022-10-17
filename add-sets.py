@@ -20,8 +20,17 @@
 # print(thisset)
 
 
-marks = {100,200,300,400,500,600,700}
-marks2 = {20,34,50,60,70,80,90}
+# marks = {100,200,300,400,500,600,700}
+# marks2 = {20,34,50,60,70,80,90}
 
-marks.update(marks2)
-print(marks)
+# marks.update(marks2)
+# print(marks)
+
+#add any iterable
+#object in update function does not have to be set it can be tupples or list and dictionaries
+
+thisset = {"apple","banane","cherry"}
+mylist = {"kiwi","orange"}
+
+thisset.update(mylist)
+print(thisset)
