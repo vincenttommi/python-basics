@@ -6,8 +6,8 @@
 # name = (("vincent",))
 # print(type(name))
 
-#tupple items
-
+#tupple
+#tupple can be of any datatype int,boolean and string 
 tuple1 = ("apple","banana","cherry")
 tuple2 = (1,2,3,4,5,6,7)
 tuple3 = (True,False,False)
