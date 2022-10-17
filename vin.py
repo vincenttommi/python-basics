@@ -1,12 +1,9 @@
-#list comprehension
-# List comprehension offers a shorter syntax when you 
-# want to create a new list based on the values of an existing list
+#more list comprehemsion
+#done in one line of code
 
+fruits = ["apple","banana","mango","kiwi","vincent"]
 
-fruits = ["apple","banana","kiwi","mango","cherry"]
-newlist = []
-for x in fruits:
-    if "a" in x:
-        newlist.append(x)
-        
-print(newlist)        
+newlist = [ x for x in fruits if "i" in x]
+
+print(newlist)
+ 
