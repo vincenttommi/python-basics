@@ -1,9 +1,12 @@
-#looping using list comprehension
-#offers the shortest syntax for looping through the list
+#list comprehension
+# List comprehension offers a shorter syntax when you 
+# want to create a new list based on the values of an existing list
 
 
-
-
-
-names = ["lilianmwangi","damarismumbua","bethgacinenjoki","diananyagano","brenchoe Andeyo","EstherOmolo"]
-[print (x)  for x in names]
+fruits = ["apple","banana","kiwi","mango","cherry"]
+newlist = []
+for x in fruits:
+    if "a" in x:
+        newlist.append(x)
+        
+print(newlist)        
