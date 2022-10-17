@@ -1,9 +1,8 @@
-#more list comprehemsion
-#done in one line of code
+#sorting  list in python
+#are sorted alphenumerically
+#using  sort()
+#sorts lists alphanumerically 
 
-fruits = ["apple","banana","mango","kiwi","vincent"]
-
-newlist = [ x for x in fruits if "i" in x]
-
-print(newlist)
- 
+thislist = ["orange","mango","kiwi","banana","pineapple"]
+thislist.sort()
+print(thislist)
