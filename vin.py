@@ -1,6 +1,7 @@
 #sort descending
 #from largest to smallest
 
-Teams = ["Brazil","Argentina","France","Norway","Germany"]
-Teams.sort(reverse=True)
-print(Teams)
+
+numbers = [45,50,67,80,100,25,27]
+numbers.sort(reverse=True)
+print(numbers)
