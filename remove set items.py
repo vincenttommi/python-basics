@@ -21,10 +21,12 @@
 # print(marks)
 
 #clear() function empties the whole set
+#del function in python clears  everything in the set.
 
 
-thisset = {"apple","banana","cherry"}
 
+names = {"vincent","tommi","korir","cherry","banana"}
 
-thisset.clear()
-print(thisset)
+del names
+
+print(names)
