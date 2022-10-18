@@ -9,4 +9,7 @@ thisdict = {
 }
 
 
-print(thisdict)
+print(thisdict["Captain"])
+
+#dictionery items are ordered changeable and non-duplicate
+
