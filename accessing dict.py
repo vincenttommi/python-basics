@@ -31,3 +31,6 @@ teams = {
 teams.items()
 print(teams)
 
+teams["country"]="USA"
+print(teams)
+
