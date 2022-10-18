@@ -45,11 +45,20 @@
 #  Keep All, But NOT the Duplicates
 # symmetric_difference_update() keeps elements that are not both in all sets.
 
-x = {"apple","banana","grapes","mango"}
-y = {"avacado","microsoft","google","twitter"}
+# x = {"apple","banana","grapes","mango"}
+# y = {"avacado","microsoft","google","twitter"}
 
 
 
-z = x.symmetric_difference(y)
+# z = x.symmetric_difference(y)
 
-print(x)
+# print(x)
+
+
+names = {"sadiomane","stevengerald","mango","banana"}
+names2 = {"avacado","banana","mango","google"}
+
+
+names3 = names.symmetric_difference(names2)
+
+print(names)
