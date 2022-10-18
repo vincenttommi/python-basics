@@ -18,6 +18,7 @@
 
 #keys() returns a list of all keys in the dictionary
 #values() returns a list of all values in the function
+#items() returns all values items in dictionary
 
 
 teams = {
@@ -27,7 +28,6 @@ teams = {
     
 }
 
-teams.values()
-
+teams.items()
 print(teams)
 
