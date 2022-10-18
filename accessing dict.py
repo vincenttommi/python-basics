@@ -1,17 +1,17 @@
-teams={
-    "Country":"spain",
-    "Region":"Europe",
-   " year " : 2020
+# teams={
+#     "Country":"spain",
+#     "Region":"Europe",
+#    " year " : 2020
     
-}
+# }
 
-x = teams.keys()
+# x = teams.keys()
 
-print(x)
+# print(x)
 
-teams["continent"]="Europe"
+# teams["continent"]="Europe"
 
-print(teams)  
+# print(teams)  
 # after change
 #before change
 
@@ -19,4 +19,15 @@ print(teams)
 #keys() returns a list of all keys in the dictionary
 #values() returns a list of all values in the function
 
+
+teams = {
+    "country" : "England",
+    "Region" : "Europe",
+    "year" : 2022
+    
+}
+
+teams.values()
+
+print(teams)
 
