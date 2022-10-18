@@ -21,16 +21,29 @@
 #items() returns all values items in dictionary
 
 
-teams = {
-    "country" : "England",
-    "Region" : "Europe",
-    "year" : 2022
+# teams = {
+#     "country" : "England",
+#     "Region" : "Europe",
+#     "year" : 2022
+    
+# }
+
+# teams.items()
+# print(teams)
+
+# teams["country"]="USA"
+# print(teams)
+
+
+#To determine if key exist in dictionary
+
+
+freinds = {
+    "name" : "Richard",
+    "place" : "Kawangware",
+    "country" : "Kenya",
     
 }
 
-teams.items()
-print(teams)
-
-teams["country"]="USA"
-print(teams)
-
+if "name" in freinds:
+    print("you passed")
