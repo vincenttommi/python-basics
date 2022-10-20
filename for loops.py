@@ -18,9 +18,19 @@
 #used to stop loop before it has looped through both items
 
 
-fruits = ["tomato","banana","apple","cherry","grapes"]
+# fruits = ["tomato","mango","banana","apple","cherry","grapes"]
+
+# for x in fruits:
+#     print(x)
+#     if x=="banana":
+#      break    
+
+#example 2 
+#break comes before print
+
+fruits = ["apple","banana","cherry"]
 
 for x in fruits:
-    print(x)
-    if x=="banana":
-     break       
+    if x == "banana":
+        break
+    print(x)   
