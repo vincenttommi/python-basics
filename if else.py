@@ -36,6 +36,14 @@
 
 
 
-a = 200
-b= 100
-if a > b: print("a is greater than b")
+# a = 200
+# b= 100
+# if a > b: print("a is greater than b")
+
+#short hand else in python
+
+
+
+a = 2 
+b = 330
+print("A")if a > b else print("B")
