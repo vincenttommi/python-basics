@@ -14,6 +14,7 @@
 #     print(names)
     
 #values() returns values of a dictionary
+#keys() returns keys of a dictionary
 
 
 place = {
@@ -24,5 +25,5 @@ place = {
     "year" : 2022
 }
 
-place.values()
-print(place)
+for x in place.keys():
+    print(place)
