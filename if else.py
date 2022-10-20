@@ -82,10 +82,19 @@
 #     print("But not above 20!")       
     
     
-x = 100
-if x > 29:
-    print("you need more time of coding")
+# x = 100
+# if x > 29:
+#     print("you need more time of coding")
     
-if x > 200:
-    print("you passed the test")
-        
+# if x > 200:
+#     print("you passed the test")        # 
+
+
+#pass statement in python 
+
+
+a = 33
+b = 50
+
+if a > b :
+    pass
