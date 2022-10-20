@@ -1,4 +1,5 @@
 #pop() removes items  with specified key name
+#popitem() removes the last inserted item in  values
 
 
 names = {
@@ -10,6 +11,6 @@ names = {
 }
 
 
-names.pop("Age")
+names.popitem()
 print(names)
 
