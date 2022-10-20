@@ -15,6 +15,7 @@
     
 #values() returns values of a dictionary
 #keys() returns keys of a dictionary
+#items() loops through both keys and functions
 
 
 place = {
@@ -24,6 +25,6 @@ place = {
     "Population" : "nine billion people",
     "year" : 2022
 }
-
-for x in place.keys():
+for x,y in place.items():
     print(place)
+
