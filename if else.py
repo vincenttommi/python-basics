@@ -23,13 +23,9 @@
 #else 
 
 a = 300
-b = 300
+b = 200
 
-
-if b < a :
-    print("b is greatere than a")
-    
-elif  a == b:
-    print("a and b are equal")    
+if b > a:
+    print("b is greater than a")
 else:
-    print("a is greater than b")
+    print("a is  greater than b")    
