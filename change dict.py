@@ -2,15 +2,17 @@
 #you can change value of a specific item by reffering to its name
 
 
-Trophies = {
+#update() will update  dictionary with items from given arguments
+
+thisdict = {
     
-    "premierLeague":"Mancity",
-    "Bundesliga" : "Bayern Munich",
-    "Spain"   : "Laliga",
-    "Italy" : "Serie A",
-    "France" : "Ligue 1",
+    "Brand" : "Ford",
+    "Model" :"Mustang",
+    "year" : "1964",
+    
 }
 
-Trophies["premierLeague"]="Chelsea"
+thisdict.update({"year" : 2022})
 
-print(Trophies)
+print(thisdict)
+
