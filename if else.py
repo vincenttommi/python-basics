@@ -44,6 +44,16 @@
 
 
 
-a = 2 
-b = 330
-print("A")if a > b else print("B")
+# a = 2 
+# b = 330
+# print("A")if a > b else print("B")
+
+
+#and is a key logical operator
+
+a = 200
+b = 300
+c = 400
+
+if a < b and c > a:
+    print("Both conditions are  true")
