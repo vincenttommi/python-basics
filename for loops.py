@@ -28,9 +28,20 @@
 #example 2 
 #break comes before print
 
-fruits = ["apple","banana","cherry"]
+# fruits = ["apple","banana","cherry"]
+
+# for x in fruits:
+#     if x == "banana":
+#         break
+#     print(x)   
+
+#continue statement in forloop
+
+
+fruits = ["apple","banana","grapes","orange","beans"]
 
 for x in fruits:
-    if x == "banana":
-        break
-    print(x)   
+ if x == "orange":
+     continue
+ print(x)
+    
