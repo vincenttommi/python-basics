@@ -11,5 +11,16 @@
 #using for loop to iterate over strings
 
 
-for x in "banana":
+# for x in "banana":
+#     print(x)
+
+#break statement in for loop 
+#used to stop loop before it has looped through both items
+
+
+fruits = ["tomato","banana","apple","cherry","grapes"]
+
+for x in fruits:
     print(x)
+    if x=="banana":
+     break       
