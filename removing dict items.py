@@ -1,5 +1,7 @@
 #pop() removes items  with specified key name
 #popitem() removes the last inserted item in  values
+# del keyword removes the item with the specified key name
+#clear empties the whole dictionary
 
 
 names = {
@@ -11,6 +13,10 @@ names = {
 }
 
 
-names.popitem()
+
+
+
+names.clear()
+
 print(names)
 
