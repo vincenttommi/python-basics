@@ -22,10 +22,20 @@
 #     print("x and are both equal")    
 #else 
 
-a = 300
-b = 200
+# a = 300
+# b = 200
 
-if b > a:
-    print("b is greater than a")
-else:
-    print("a is  greater than b")    
+# if b > a:
+#     print("b is greater than a")
+# else:
+#     print("a is  greater than b")    
+
+
+#short hand if in python
+
+
+
+
+a = 200
+b= 100
+if a > b: print("a is greater than b")
