@@ -61,9 +61,31 @@
 
 #or as a logical operator
 
-a = 200
-b = 300
-c = 400
+# a = 200
+# b = 300
+# c = 400
 
-if a > b or a > c:
-    print("Atleast one of the conditions is true")
+# if a > b or a > c:
+#     print("Atleast one of the conditions is true")
+
+
+#Nested if  statement 
+
+# x = 41
+# if x > 10:
+#     print("Above ten,")
+    
+    
+# if x > 20:
+#     print("and also above 20!")
+# else:
+#     print("But not above 20!")       
+    
+    
+x = 100
+if x > 29:
+    print("you need more time of coding")
+    
+if x > 200:
+    print("you passed the test")
+        
