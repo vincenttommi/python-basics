@@ -51,9 +51,19 @@
 
 #and is a key logical operator
 
+# a = 200
+# b = 300
+# c = 400
+
+# if a < b and c > a:
+#     print("Both conditions are  true")
+
+
+#or as a logical operator
+
 a = 200
 b = 300
 c = 400
 
-if a < b and c > a:
-    print("Both conditions are  true")
+if a > b or a > c:
+    print("Atleast one of the conditions is true")
