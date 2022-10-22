@@ -59,7 +59,14 @@
 # specifies a block of code to be excuted when the block is finished
 
 
-for x in range(2,10):
+# for x in range(2,10):
+#     print(x)
+# else:
+#     print("finally finished")
+
+
+for x in range(6):
+    if x == 3:break
     print(x)
 else:
-    print("finally finished")
+    print("finally finished")   
