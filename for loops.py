@@ -77,11 +77,22 @@
 #inner loop will be excuted one time for each iteration of outer loop
 
 
-clubs = ["manchester united","chelsea","stokecity","totehnam"]
+# clubs = ["manchester united","chelsea","stokecity","totehnam"]
 
-captains = ["aziplicueta","maguire","unknown","Hugo loris"]
+# captains = ["aziplicueta","maguire","unknown","Hugo loris"]
 
 
-for x in clubs:
-    for y in captains:
-            print(x,y)
+# for x in clubs:
+#     for y in captains:
+            # print(x,y)
+            
+    
+
+
+#pass statement 
+#introduced in a lopp so as to avoid occuring of an error when the loop is empty.
+
+
+
+for x in [0,5,6]:
+    pass
