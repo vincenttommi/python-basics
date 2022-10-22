@@ -52,5 +52,14 @@
 #returns  a sequence of number from 0 by default  and increments by 1
 
 
-for x in range(2,6):
+# for x in range(2,6):
+#     print(x)
+
+#else in forloop
+# specifies a block of code to be excuted when the block is finished
+
+
+for x in range(2,10):
     print(x)
+else:
+    print("finally finished")
