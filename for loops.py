@@ -76,11 +76,12 @@
 #Is a loop inside aloop.
 #inner loop will be excuted one time for each iteration of outer loop
 
-color =["red","blue","white"]
-fruits =["orange","banana","cherry","apple"]
 
-for x in color:
- for y in fruits:
-     
-     print(x,y)
-        
+clubs = ["manchester united","chelsea","stokecity","totehnam"]
+
+captains = ["aziplicueta","maguire","unknown","Hugo loris"]
+
+
+for x in clubs:
+    for y in captains:
+            print(x,y)
