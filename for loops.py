@@ -65,8 +65,22 @@
 #     print("finally finished")
 
 
-for x in range(6):
-    if x == 3:break
-    print(x)
-else:
-    print("finally finished")   
+# for x in range(6):
+#     if x == 3:break
+#     print(x)
+# else:
+#     print("finally finished")   
+
+
+#nested loops
+#Is a loop inside aloop.
+#inner loop will be excuted one time for each iteration of outer loop
+
+color =["red","blue","white"]
+fruits =["orange","banana","cherry","apple"]
+
+for x in color:
+ for y in fruits:
+     
+     print(x,y)
+        
