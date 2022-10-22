@@ -63,17 +63,34 @@
 #arbitray keword in python
 # helps to capture unkwon double amount of parameter  passed in a function
 
-def my_function(** kid):
-    print("His last name is " + kid["lname"])
+# def my_function(** kid):
+#     print("His last name is " + kid["lname"])
     
-my_function(fname = "vincent", lname = "tommi") 
+# my_function(fname = "vincent", lname = "tommi") 
 
 
 
 
-def functeams(** club):
-    print("my favourite team is " + club["name"])
+# def functeams(** club):
+#     print("my favourite team is " + club["name"])
     
     
     
-functeams(name = "chelsea", nicknames = "The blues")
+# functeams(name = "chelsea", nicknames = "The blues")
+
+
+
+#Default parameter  value
+#if we call a function without an argument , it uses the default value
+
+
+def my_function(country = "norway"):
+    print("I am from " + country)
+    
+    
+    
+    
+my_function("sweden") 
+my_function("india")
+my_function()
+my_function("Brazil")   
