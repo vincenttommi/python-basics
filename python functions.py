@@ -5,8 +5,7 @@
 #creating a function in python
 
 
-def my_function():
-    print("hello from a function")
+def myfunction():
+    print('welcome vincenttommi')
     
-    
-my_function()    
+myfunction()    
