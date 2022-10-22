@@ -53,7 +53,27 @@
 
 
 
-def myfunction(child3, child2, child1):
-    print("the youngest chils is" + child3)
+# def myfunction(child3, child2, child1):
+#     print("the youngest chils is" + child3)
     
-myfunction(child1 = "vincent", child2 = "brayo", child3 = "Lilo")    
+# myfunction(child1 = "vincent", child2 = "brayo", child3 = "Lilo")    
+
+
+
+#arbitray keword in python
+# helps to capture unkwon double amount of parameter  passed in a function
+
+def my_function(** kid):
+    print("His last name is " + kid["lname"])
+    
+my_function(fname = "vincent", lname = "tommi") 
+
+
+
+
+def functeams(** club):
+    print("my favourite team is " + club["name"])
+    
+    
+    
+functeams(name = "chelsea", nicknames = "The blues")
