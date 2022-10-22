@@ -36,12 +36,21 @@
 #     print(x)   
 
 #continue statement in forloop
+#with continue statement we can stop current iteration then continue with the next
 
 
-fruits = ["apple","banana","grapes","orange","beans"]
+# fruits = ["apple","banana","grapes","orange","beans"]
 
-for x in fruits:
- if x == "orange":
-     continue
- print(x)
+# for x in fruits:
+#  if x == "orange":
+#      continue
+#  print(x)
     
+    
+#range()
+#used to loop  a set of code through a number of  times
+#returns  a sequence of number from 0 by default  and increments by 1
+
+
+for x in range(6):
+    print(x)
