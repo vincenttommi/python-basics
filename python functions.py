@@ -42,7 +42,18 @@
 
     
 
-def my_function(fname,lname):
-    print(fname +  "" + lname)
+# def my_function(fname,lname):
+#     print(fname +  "" + lname)
     
-    my_function("vincent", "tommi")
+#     my_function("vincent", "tommi")
+
+#key arguments in python
+
+ 
+
+
+
+def myfunction(child3, child2, child1):
+    print("the youngest chils is" + child3)
+    
+myfunction(child1 = "vincent", child2 = "brayo", child3 = "Lilo")    
