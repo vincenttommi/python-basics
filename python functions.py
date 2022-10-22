@@ -84,13 +84,31 @@
 #if we call a function without an argument , it uses the default value
 
 
-def my_function(country = "norway"):
-    print("I am from " + country)
+# def my_function(country = "norway"):
+#     print("I am from " + country)
     
     
     
     
-my_function("sweden") 
-my_function("india")
-my_function()
-my_function("Brazil")   
+# my_function("sweden") 
+# my_function("india")
+# my_function()
+# my_function("Brazil")   
+
+
+
+#passing a list as an argument
+#it allows sending  of data types  of arguments to a function(list,tuple,dictionary)
+#thus treated as any other data.
+
+
+def myfunction(teams):
+    for x in teams:
+        print(x)
+        
+        
+countries = ["England","Germany","Australia","Canada"]
+
+
+myfunction(countries)         
+
