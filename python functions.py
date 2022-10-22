@@ -17,9 +17,19 @@
 #arguments are specified after the function name,inside parenthess.you can add as many arguments as you want
 
 
-def my_function(fname):
-      print(fname + "company")
+# def my_function(fname):
+#       print(fname + "company")
 
-my_function("Emil")
-my_function("Tobias")
-my_function("Linus")
+# my_function("Emil")
+# my_function("Tobias")
+# my_function("Linus")
+
+
+def my_function(fname):
+    print(fname + "tommi")
+
+    
+    
+my_function("vincent")
+my_function("vin")
+my_function("korir")
