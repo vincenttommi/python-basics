@@ -102,13 +102,36 @@
 #thus treated as any other data.
 
 
-def myfunction(teams):
-    for x in teams:
-        print(x)
+# def myfunction(teams):
+#     for x in teams:
+#         print(x)
         
         
-countries = ["England","Germany","Australia","Canada"]
+# countries = ["England","Germany","Australia","Canada"]
 
 
-myfunction(countries)         
+# myfunction(countries)         
+
+
+#Returning values in python
+#to let a function return a value we use a return statement
+
+
+
+# def myfunction(x):
+#     return 5 * x
+
+
+# print(myfunction(4))
+# print(myfunction(5))
+# print(myfunction(6))
+
+#pass statement in python
+#prevents a function from returning an  error when the function is empty.
+
+
+
+
+def myfunction():
+    Pass
 
