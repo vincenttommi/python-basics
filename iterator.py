@@ -16,10 +16,20 @@
 #strings are iterable objects and can return  an iterator
 
 
-mystr = "banana"
-myit = iter(mystr)
+# mystr = "banana"
+# myit = iter(mystr)
 
 
-print(next(myit))
-print(next(myit))
-print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+
+
+
+#looping thgrough an iterator
+
+mytuple = ("apple","banana","cherry")
+
+for x in mytuple:
+    
+    print(x)
