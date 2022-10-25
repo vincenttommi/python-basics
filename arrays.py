@@ -17,8 +17,16 @@
 #we use len()
 
 
-fruits = ["mango","banana","grapes","beans","orange","pineaple"]
+# fruits = ["mango","banana","grapes","beans","orange","pineaple"]
 
-x = len(fruits)
+# x = len(fruits)
 
-print(x)
+# print(x)
+
+#looping array element in python
+
+
+marks = [50,60,70,80,90,100]
+
+for x in marks:
+    print(x)
