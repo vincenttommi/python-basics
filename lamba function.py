@@ -4,6 +4,13 @@
 
 #syntax
 #lambda arguments:expression
+#expression is excuted and results returned
+# x = lambda a: a + 10
+# print(x(5))
 
-x = lambda a: a + 10
-print(x(5))
+
+#multiplication in lambda
+
+
+x = lambda a,b: a*b
+print(x(10,20))
