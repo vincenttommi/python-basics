@@ -34,13 +34,20 @@
 #adding array element in python
 #we use append()
 
-cars = ["Ford","BMW","volvo"]
-cars.append("defender")
+# cars = ["Ford","BMW","volvo"]
+# cars.append("defender")
 
+# print(cars)
+
+
+# marks = [200,300,400,500]
+# marks.append("700")
+# print(marks)
+
+#removing array elements we use pop()
+
+
+cars = ["volvo","Defender","yatch"]
+cars.pop(0)
 print(cars)
-
-
-marks = [200,300,400,500]
-marks.append("700")
-print(marks)
 
