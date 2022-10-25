@@ -45,9 +45,14 @@
 # print(marks)
 
 #removing array elements we use pop()
+#remove()
 
 
-cars = ["volvo","Defender","yatch"]
-cars.pop(0)
+# cars = ["volvo","Defender","yatch"]
+# cars.pop(0)
+# print(cars)
+
+cars  = ["volvo","Toyota","Benz","Defender"]
+
+cars.remove("volvo")
 print(cars)
-
