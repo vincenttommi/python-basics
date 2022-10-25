@@ -2,13 +2,23 @@
 #array is a special value which can hold more than one value at a time
 #accessing elements in array
 
-cars = ["BMW","MerceBenz","Volvo","pequot"]
+# cars = ["BMW","MerceBenz","Volvo","pequot"]
 
-x = cars[3]
+# x = cars[3]
+# print(x)
+
+# #modifying value of an array
+
+# cars = ["Benz G wagon","volvo","pequot","merceBenz"]
+
+# cars[0] = "toyota"
+
+#returning length of an array
+#we use len()
+
+
+fruits = ["mango","banana","grapes","beans","orange","pineaple"]
+
+x = len(fruits)
+
 print(x)
-
-#modifying value of an array
-
-cars = ["Benz G wagon","volvo","pequot","merceBenz"]
-
-cars[0] = "toyota"
