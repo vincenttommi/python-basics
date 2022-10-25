@@ -26,7 +26,21 @@
 #looping array element in python
 
 
-marks = [50,60,70,80,90,100]
+# marks = [50,60,70,80,90,100]
 
-for x in marks:
-    print(x)
+# for x in marks:
+#     print(x)
+
+#adding array element in python
+#we use append()
+
+cars = ["Ford","BMW","volvo"]
+cars.append("defender")
+
+print(cars)
+
+
+marks = [200,300,400,500]
+marks.append("700")
+print(marks)
+
