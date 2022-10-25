@@ -6,3 +6,9 @@ cars = ["BMW","MerceBenz","Volvo","pequot"]
 
 x = cars[3]
 print(x)
+
+#modifying value of an array
+
+cars = ["Benz G wagon","volvo","pequot","merceBenz"]
+
+cars[0] = "toyota"
