@@ -43,14 +43,39 @@
 #if you operate with the same  variable name  inside and outside a function ,python will treat them as two 
 #separate variables
 
-x = "vincenttommi"
+# x = "vincenttommi"
 
 
-def myfunc():
-    x = 200 #local  variables
-    print(x) 
+# def myfunc():
+#     x = 200 #local  variables
+#     print(x) 
     
     
     
-myfunc()
+# myfunc()
+# print(x)    
+
+
+#global keyword 
+
+
+    
+
+
+
+
+
+
+
+
+def myfunction():
+    global x  
+    
+    x = "python flask"
+    
+ 
+myfunction()
 print(x)    
+    
+    
+        
