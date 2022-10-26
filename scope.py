@@ -16,21 +16,41 @@
 #global variables are available  from within  any scope and global scope
 
 
-x = 300
+# x = 300
+
+# def myfunc():
+#     print(x)
+    
+    
+# myfunc()
+# print(x)
+
+
+
+# x = "vincentommi"
+
+# def myfunc():
+#     print(x)
+    
+    
+# myfunc()
+
+    
+
+
+
+#Naming of variables 
+#if you operate with the same  variable name  inside and outside a function ,python will treat them as two 
+#separate variables
+
+x = "vincenttommi"
+
 
 def myfunc():
-    print(x)
+    x = 200 #local  variables
+    print(x) 
+    
     
     
 myfunc()
-print(x)
-
-
-
-x = "vincentommi"
-
-def myfunc():
-    print(x)
-    
-    
-myfunc()    
+print(x)    
