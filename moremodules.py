@@ -18,9 +18,16 @@
 # }
 
 
-teams = {
+# teams = {
     
-    "country" : "senegal",
-    "captain" : "sadio mane",
-    "age" : 30,
+#     "country" : "senegal",
+#     "captain" : "sadio mane",
+#     "age" : 30,
+# }
+
+person1 = {
+    
+    "name" : "vincenttommi",
+    "age"  : 25,
+    "country" : "kenya",
 }
