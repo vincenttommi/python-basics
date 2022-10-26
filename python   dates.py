@@ -8,3 +8,15 @@ x = datetime.datetime.now()
 
 
 print(x)
+
+
+
+#returning year and name of the week
+
+import datetime
+
+x = datetime.datetime.now()
+
+
+print(x.year)
+print(x.strftime("%A"))
