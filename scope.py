@@ -2,12 +2,24 @@
 
 #local scope 
 #a variable created inside a functuion belongs to  local scope of the function
+#a  variable is available from the only region oit was created
+#The variable is available for any function  inside a function
+    
+       
 
+
+
+
+
+#global scope
+#are variables created inside  the scope of a function of outside a function
+#global variables are available  from within  any scope and global scope
+
+
+x = 300
 
 def myfunc():
-    x = 300
     print(x)
     
-    
-myfunc()    
-    
+myfunc()
+print(x)
