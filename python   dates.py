@@ -42,11 +42,13 @@
  
  
  
-import  datetime
+
+
+import datetime
+
 
 x = datetime.datetime(2022,10,26)
 
-print(x.strftime("%B"))
-
+print(x.strftime("%V"))
 
 
