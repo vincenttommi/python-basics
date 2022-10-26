@@ -29,8 +29,24 @@
 
 
 
-import datetime
+# import datetime
+
+# x = datetime.datetime(2022,10,26)
+
+# print(x)
+
+#The strftime()  method
+#formats date objects into readable strings
+#Takes one parameter to specity type of formatted string returned
+
+ 
+ 
+ 
+import  datetime
 
 x = datetime.datetime(2022,10,26)
 
-print(x)
+print(x.strftime("%B"))
+
+
+
