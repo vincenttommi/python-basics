@@ -78,4 +78,23 @@ myfunction()
 print(x)    
     
     
+    
+#global keyword can be used when making a changing  value outside a global variable
+
+
+
+
+x = "vincent"
+
+def myfunction():
+    global x 
+    
+    x = "korir"
+    
+myfunction()
+
+print(x)    
+
+  
+    
         
