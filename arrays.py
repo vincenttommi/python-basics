@@ -56,3 +56,14 @@ cars  = ["volvo","Toyota","Benz","Defender"]
 
 cars.remove("volvo")
 print(cars)
+
+#arrays methods
+# append() adds an element at the end of the list
+# clear() removes all the elements from the list
+#copy() copy an element in a list
+# count() returns the numbers of elements in a list
+# sort() sorts list
+# reverse() reverses a list
+# pop() removes elements at list arrays
+# insert() inserts an element at the specified position
+#extend() ends elements in a list
