@@ -23,6 +23,35 @@
 
 # pow(x,y)
 
-x = pow(4,5)
+# x = pow(4,5)
 
-print(x)
+# print(x)
+
+
+#math mmodule 
+#extends list of  mathematical  functions
+#when you have imported  math module  ypu can start using  methods and constants of the module
+#math.sqrt() returns method for example
+
+
+
+# import  math 
+
+
+# x = math.sqrt(100)
+
+# print(x)
+
+
+#math.ceil() rounds a number to upwards to its nearest integer
+# math.floor() rounds a number downwards to its nearest integer number
+
+import math 
+
+
+x = math.ceil(4.0)
+y = math.floor(5.0)
+
+
+print(x)  #returns 4
+print(y)  #returns 5
