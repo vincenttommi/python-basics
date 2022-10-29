@@ -15,6 +15,14 @@
 #absolute function in python()
 #returns absolute value of the specificied number
 
-x = abs(-7.25)
+# x = abs(-7.25)
+#function return value of x to power of (xy)
+
+# print(x)
+
+
+# pow(x,y)
+
+x = pow(4,5)
 
 print(x)
