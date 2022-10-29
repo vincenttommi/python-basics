@@ -46,12 +46,21 @@
 #math.ceil() rounds a number to upwards to its nearest integer
 # math.floor() rounds a number downwards to its nearest integer number
 
+# import math 
+
+
+# x = math.ceil(4.0)
+# y = math.floor(5.0)
+
+
+# print(x)  #returns 4
+# print(y)  #returns 5
+
+
+#math.pi() returns pi function
+
 import math 
 
+x = math.pi
 
-x = math.ceil(4.0)
-y = math.floor(5.0)
-
-
-print(x)  #returns 4
-print(y)  #returns 5
+print(x)
