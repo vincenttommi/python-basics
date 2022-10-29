@@ -8,13 +8,51 @@
 
 
 
+# import json
+
+# # some JSON:
+# x =  '{ "name":"John", "age":30, "city":"New York"}'
+
+# # parse x:
+# y = json.loads(x)
+
+# # the result is a Python dictionary:
+# print(y["age"])
+
+
+
+#converting python to json
+#if you have  a python object,you can convert it into  json string  by using json.dumps()
+
+
+#converting from python to json
+#json.dumps() we use this function  when converting python strings to json strings
+
+
+
 import json
 
-# some JSON:
-x =  '{ "name":"John", "age":30, "city":"New York"}'
+x = {
+    "name" : "vincenttommi",
+    "age": 20,
+    "country":"kenya",
+}
 
-# parse x:
-y = json.loads(x)
+#converst into json
 
-# the result is a Python dictionary:
-print(y["age"])
+y = json.dumps(x)
+print(x)
+
+#The following  python objects can be converted into json strings
+#list
+#tuple
+#sets
+# string
+#int
+# float
+#True
+#False
+
+
+#The format result
+# 
