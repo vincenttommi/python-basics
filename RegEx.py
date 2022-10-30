@@ -40,9 +40,23 @@
 # a match object is an object containing information about the search and result
 
 
-import re
-txt = "vincent learning python"
+# import re
+# txt = "vincent learning python"
 
-x = re.search("py",txt)
-print(x) 
-#this will print an object
+# x = re.search("py",txt)
+# print(x) 
+# #this will print an object
+
+
+# span()
+#returns  a tuple containing the start and end position of the match
+# .string returns  the string passed into the function
+# .group() returns the part  of the string where there was a match
+
+
+import re
+
+txt = "Tommi is learining python"
+x = re.search(r"\bS\w+", txt)
+
+print(x)
