@@ -17,13 +17,32 @@
 
 #find all function
 #returns  a list containing all the  matches
+#returns an empty list when no match is found
 
-import re
+# import re
 
-txt = "the rain in spain"
-x = re.findall("ai",txt)
+# txt = "the rain in spain"
+# x = re.findall("portugal",txt)
 
-print(x)
+# print(x)
 
 
     
+
+#search function()
+#searches a  string for a match and returns a match  object if there is a match
+#if there is more that one match ,only first occurence of the match will be returned
+
+
+
+
+#match object
+# a match object is an object containing information about the search and result
+
+
+import re
+txt = "vincent learning python"
+
+x = re.search("py",txt)
+print(x) 
+#this will print an object
